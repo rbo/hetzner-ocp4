@@ -42,7 +42,7 @@ Download and extract the mirror-registry binary: (This is currently not done via
 ```bash
 mkdir ~/mirror
 cd ~/mirror
-wget https://developers.redhat.com/content-gateway/rest/mirror/pub/openshift-v4/clients/mirror-registry/latest/mirror-registry.tar.gz
+curl -L -O https://developers.redhat.com/content-gateway/rest/mirror/pub/openshift-v4/clients/mirror-registry/latest/mirror-registry.tar.gz
 tar -xzvf mirror-registry.tar.gz
 ```
 
